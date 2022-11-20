@@ -1,5 +1,5 @@
-import listUserProfileService from "../services/users/listUserProfile.service";
-import users from "../database";
+import listUserProfileService from "../../services/users/listUserProfile.service";
+import users from "../../database";
 import jwt from "jsonwebtoken";
 
 const listUserProfileController = (req, res) => {

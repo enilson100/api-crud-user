@@ -1,9 +1,9 @@
 import { Router } from "express";
-import createUserController from "../controller/createUser.controller";
-import listUsersController from "../controller/listUsers.conroller";
-import listUserProfileController from "../controller/listUserProfile.controller";
-import updateUserController from "../controller/update.controller";
-import deleteUserController from "../controller/deleteUsers.controller";
+import createUserController from "../controller/users/createUser.controller";
+import listUsersController from "../controller/users/listUsers.conroller";
+import listUserProfileController from "../controller/users/listUserProfile.controller";
+import updateUserController from "../controller/users/update.controller";
+import deleteUserController from "../controller/users/deleteUsers.controller";
 
 import verifyEmailAvailabilityMiddleware from "../middlewares/verifyEmailAvailability.Middleware";
 import verifyAuthTokenMiddleware from "../middlewares/verifyAuthToken.middleware";

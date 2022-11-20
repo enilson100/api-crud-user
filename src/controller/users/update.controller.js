@@ -1,4 +1,4 @@
-import updateUserService from "../services/users/updateUser.service";
+import updateUserService from "../../services/users/updateUser.service";
 
 const updateUserController = (req, res) => {
   try {
